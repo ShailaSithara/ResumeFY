@@ -1,118 +1,121 @@
-# 🚀 Resumefy
+# ✨ Resumefy — Build Your Stunning Digital Profile
 
-A modern, beautifully designed **Flutter resume builder app** that helps users create, manage, and showcase their professional profiles with ease.
+<p align="center">
+  <img src="assets/screenshots/app_banner.png" width="100%" />
+</p>
 
----
-
-## ✨ Features
-
-* 🔐 **Authentication**
-
-  * Firebase Email/Password login & signup
-  * Secure session handling
-
-* 👤 **Profile Management**
-
-  * Personal details (name, email, headline, photo)
-  * Edit and update anytime
-
-* 🛠️ **Skills Section**
-
-  * Add, view, and manage skills
-  * Clean chip-based UI
-
-* 💼 **Experience Timeline**
-
-  * Add job roles, company, duration, and description
-  * Elegant timeline design
-
-* 🎓 **Education**
-
-  * Add degrees, institutions, and years
-  * Structured layout
-
-* 🌟 **Goals & Interests**
-
-  * Career goals and personal interests
-
-* 🎨 **Modern UI**
-
-  * Glassmorphism design
-  * Smooth animations
-  * Gradient-based theme
+<p align="center">
+  <b>Create. Showcase. Impress.</b><br/>
+  A beautifully crafted Flutter app to build and manage your professional profile.
+</p>
 
 ---
 
-## 🧱 Tech Stack
+## 🚀 Overview
 
-* **Flutter** – UI framework
-* **Riverpod** – State management
-* **Firebase Auth** – Authentication
-* **Cloud Firestore** – Database
-* **GoRouter** – Navigation
+**Resumefy** is a modern, elegant Flutter application designed to help users create and manage their personal and professional profiles with ease.
+
+From skills and experience to education and career goals — everything is presented in a clean, aesthetic UI that feels premium and smooth.
 
 ---
 
-## 📂 Project Structure
+## 🌟 Features
+
+✨ **Beautiful Profile UI**
+
+* Glassmorphism cards
+* Gradient hero header
+* Smooth animations
+
+🧠 **Smart Profile Management**
+
+* Add skills, experience, education
+* Update goals & interests
+* Live profile updates using streams
+
+🔐 **Authentication System**
+
+* Secure login & logout
+* Firebase authentication integration
+
+⚡ **State Management (Riverpod)**
+
+* Clean architecture
+* Reactive UI updates
+* Scalable and maintainable code
+
+🎯 **Modern UX**
+
+* Minimal design
+* Smooth navigation (GoRouter)
+* Responsive layout
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/profile.png" width="250"/>
+  <img src="assets/screenshots/edit.png" width="250"/>
+  <img src="assets/screenshots/login.png" width="250"/>
+</p>
+
+> 💡 Tip: Add your screenshots inside `assets/screenshots/` and update paths if needed.
+
+---
+
+## 🏗️ Project Structure
 
 ```
 lib/
-│
 ├── core/
-│   ├── constants/        # Colors, typography
-│   ├── routes/           # App routes
+│   ├── constants/
+│   ├── routes/
 │
 ├── data/
-│   ├── models/           # User, Experience, Education models
-│
-├── providers/            # Riverpod providers
+│   ├── models/
 │
 ├── presentation/
-│   ├── auth/             # Login / Signup screens
-│   ├── profile/          # Profile UI
+│   ├── auth/
+│   ├── profile/
 │
-├── widgets/              # Reusable UI components
+├── providers/
+│
+├── widgets/
+│   ├── common/
+│   ├── cards/
 │
 └── main.dart
 ```
 
 ---
 
-## ⚙️ Setup & Installation
+## 🛠️ Tech Stack
 
-### 1. Clone the repository
+* **Flutter**
+* **Riverpod**
+* **Firebase Auth**
+* **GoRouter**
+* **Material UI + Custom Design System**
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the repo
 
 ```bash
 git clone https://github.com/your-username/resumefy.git
 cd resumefy
 ```
 
----
-
-### 2. Install dependencies
+### 2️⃣ Install dependencies
 
 ```bash
 flutter pub get
 ```
 
----
-
-### 3. Setup Firebase
-
-* Go to Firebase Console
-* Create a project
-* Add Android app
-* Download `google-services.json`
-
-Place it inside:
-
-```
-android/app/
-```
-
----
-
-### 4. Run the app
+### 3️⃣ Run the app
 
 ```bash
 flutter run
@@ -120,57 +123,48 @@ flutter run
 
 ---
 
-## 🔥 Key Highlights
+## 🔥 Firebase Setup
 
-* ⚡ Reactive UI with Riverpod
-* 🧠 Clean architecture
-* 🎯 Scalable and maintainable codebase
-* 💎 Beautiful and modern UI design
+1. Create a Firebase project
+2. Add Android/iOS app
+3. Download `google-services.json` / `GoogleService-Info.plist`
+4. Place inside project
 
 ---
 
-## 🐞 Known Issues
+## 🎨 UI Highlights
 
-* Logout race condition (fixed using proper provider lifecycle handling)
-* Emulator performance warnings (safe to ignore)
+* 💎 Glassmorphic cards
+* 🌈 Gradient accents
+* 🧊 Soft shadows & blur effects
+* 📱 Pixel-perfect layouts
 
 ---
 
 ## 📌 Future Improvements
 
 * 📄 Resume PDF export
-* 🌐 Shareable public profile link
-* 🖼️ Image upload optimization
-* 🌙 Dark/Light theme toggle
+* 🌐 Portfolio sharing
+* 🧑‍💼 Multi-theme support
+* 🧠 AI resume suggestions
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
-
-1. Fork the repo
-2. Create a feature branch
-3. Commit your changes
-4. Push and open a PR
+Pull requests are welcome!
+If you’d like to improve UI, fix bugs, or add features — go ahead.
 
 ---
 
-## 📄 License
+## 📜 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👩‍💻 Author
+## ❤️ Made With Flutter
 
-**Sithara**
-Flutter Developer
-
----
-
-## ⭐ Support
-
-If you like this project, please ⭐ the repo!
-
----
+<p align="center">
+  <b>If you like this project, give it a ⭐ on GitHub!</b>
+</p>
