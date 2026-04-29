@@ -1,10 +1,6 @@
 # ✨ Resumefy — Build Your Stunning Digital Profile
 
 <p align="center">
-  <img src="lib/11.jpeg" width="100%" />
-</p>
-
-<p align="center">
   <b>Create. Showcase. Impress.</b><br/>
   A beautifully crafted Flutter app to build and manage your professional profile.
 </p>
@@ -55,9 +51,15 @@ From skills and experience to education and career goals — everything is prese
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/screenshots/profile.png" width="250"/>
-  <img src="assets/screenshots/edit.png" width="250"/>
-  <img src="assets/screenshots/login.png" width="250"/>
+  <img src="lib/11.jpeg" width="250"/>
+  <img src="lib/12.jpeg" width="250"/>
+  <img src="lib/13.jpeg" width="250"/>
+  <img src="lib/14.jpeg" width="250"/>
+  <img src="lib/15.jpeg" width="250"/>
+  <img src="lib/16.jpeg" width="250"/>
+  <img src="lib/17.jpeg" width="250"/>
+  <img src="lib/18.jpeg" width="250"/>
+  <img src="lib/19.jpeg" width="250"/>
 </p>
 
 > 💡 Tip: Add your screenshots inside `assets/screenshots/` and update paths if needed.
