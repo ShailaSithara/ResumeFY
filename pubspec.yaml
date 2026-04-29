@@ -1,0 +1,90 @@
+name: resumefy
+description: A premium Flutter resume builder app with Firebase
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.0
+  riverpod_annotation: ^2.3.5
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.3
+  pdf: ^3.11.0
+  printing: ^5.13.0
+  path_provider: ^2.1.4
+  open_filex: ^4.5.0
+  share_plus: ^10.0.0
+  permission_handler: ^11.3.1
+  flutter_image_compress: ^2.3.0
+
+
+  # Google Sign In
+  google_sign_in: ^6.2.1
+
+  # Navigation
+  go_router: ^14.2.7
+
+  # UI / Animations
+  flutter_animate: ^4.5.0
+  glassmorphism: ^3.0.0
+  lottie: ^3.1.2
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+
+  # Utilities
+  image_picker: ^1.1.2
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  equatable: ^2.0.5
+
+  # Icons
+  flutter_svg: ^2.0.10
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.11
+  riverpod_generator: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
+
+  # fonts:
+  #   - family: ClashDisplay
+  #     fonts:
+  #       - asset: assets/fonts/ClashDisplay-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/ClashDisplay-Semibold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/ClashDisplay-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/ClashDisplay-Regular.ttf
+  #         weight: 400
+
+  #   - family: Satoshi
+  #     fonts:
+  #       - asset: assets/fonts/Satoshi-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Satoshi-Medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/Satoshi-Bold.ttf
+  #         weight: 700
