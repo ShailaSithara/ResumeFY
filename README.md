@@ -1,7 +1,7 @@
 # ✨ Resumefy — Build Your Stunning Digital Profile
 
 <p align="center">
-  <img src="assets/screenshots/app_banner.png" width="100%" />
+  <img src="lib/11.jpeg" width="100%" />
 </p>
 
 <p align="center">
